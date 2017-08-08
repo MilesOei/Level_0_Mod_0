@@ -15,9 +15,8 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		//Create an object of the Random class here
-
-		int r = 0;
-		
-		System.out.println(r); 
+Random rand = new Random();
+		int r = rand.nextInt(310);
+		System.out.println(r - 222); 
 	}
 }
